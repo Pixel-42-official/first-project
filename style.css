@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+.grid {
+  position: absolute;
+  bottom: 15px;
+  display: grid;
+  grid-template-columns: 3;
+  grid-template-rows: 3;
+  justify-items: center;
+  align-items: center;
+  border: 2px solid #e66f6f;
+  border-radius: 50px;
+  gap: 5px;
+}
+
+.grid-element {
+  width: 200px;
+  height: 200px;
+  margin: 50px;
+}
+
+.first {
+  grid-column-start: 1;
+  grid-row-start: 1;
+  background-color: aquamarine;
+}
+
+.second {
+  grid-column-start: 2;
+  grid-row-start: 2;
+  background-color: burlywood;
+}
+
+.third {
+  grid-column-start: 3;
+  grid-row-start: 3;
+  background-color: blueviolet;
+}
